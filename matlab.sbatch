@@ -5,7 +5,7 @@
 #SBATCH --job-name=matlab
 #SBATCH --output=matlab.out
 #SBATCH --error=matlab.err
-#SBATCH --account=pi-<CNET ID>
+#SBATCH --account=pi-<PI CNET ID>
 #SBATCH --partition=caslake
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
